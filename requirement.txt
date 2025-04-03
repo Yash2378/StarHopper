@@ -1,0 +1,14 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+SQLAlchemy==1.4.46
+psycopg2-binary==2.9.6  # If using PostgreSQL
+# or: PyMySQL==1.0.2     # If using MySQL
+
+python-jose[cryptography]==3.3.0
+passlib==1.7.4
+
+# Optional ML dependencies
+torch==2.0.0
+# If you have CUDA, specify torch==2.0.0+cu118, etc.
+
+pytest==7.3.1
